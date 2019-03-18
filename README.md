@@ -19,7 +19,7 @@ I have used three different classifiers to solve this problem. All of the classi
 	
 	from https://www.kaggle.com/c/word2vec-nlp-tutorial/data and store them in the `data` folder
 
-3. Run the `classify.py` script in the `imdbMain` package. This will make predictions as per all three algorithms.
+3. Run the `classify.py` script from the `src` file. This will make predictions as per all three algorithms.
 
 4. Once the script has terminated, the final predictions should be in the `results` folder
 
