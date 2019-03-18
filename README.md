@@ -1,4 +1,4 @@
-# Kaggle-IMDB
+# Kaggle-IMDB Data Sentiment Analysis
 
 Here I am trying to solve the sentiment analysis problem for movie reviews. The problem is taken from the Kaggle competition 
 
@@ -59,8 +59,3 @@ Here is a description of the components
 	4. Make predictions on the test data
 	5. Store prediction in the `results` folder
 
-##What I observed
-
-1. MNB is the fastest classifier for making predictions. It gives me around 93% accuracy. LogReg takes the longest but gives me around 96% accuracy. SGD is about 96% accurate.
-2.  Experimenting with `TfidfVectorizer` parameters can give significant gains in accuracy. For example the optimal `ngram_range` is (1-5).
-3.  Including numbers and smileys as valid parts of text gave me dramatic gains in accuracy.
